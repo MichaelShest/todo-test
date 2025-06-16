@@ -1,0 +1,32 @@
+:root {
+    --primary-font: Montserrat, sans-serif;
+    --white: #ffffff;
+    --black: #000000;
+    --bg-primary: #3C529D;
+    --bg-primary-bright: #c8d5ffbb;
+    --bg-secondary:#F13C1F;
+    --bg-light:#EFE1BA;
+    --bg-disabled:#d8ba8478;
+    --bg-accent:#D79922;
+    --bg-accent-dark:#b07c1c;
+    --bg-minimal:#C5CBE3;
+    --icon-success :rgb(83, 157, 60);
+    --bg-green :rgb(111, 157, 13);
+    --transition: ease-in-out 0.3s;
+}
+
+// Fonts
+$primary-font: var(--primary-font);
+
+// colors
+$white: var(--white);
+$black: var(--black);
+
+$bg-primary: var( --bg-primary);
+$bg-secondary: var( --bg-secondary);
+$bg-light: var( --bg-light);
+$bg-accent: var( --bg-accent);
+$bg-minimal: var( --bg-minimal);
+
+//transform
+$transition: var(--transition);
